@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-    name: PR Verify
-    uses: bcrutherford/resuable-workflows/blob/main/.github/workflows/reusable-build.yml
+    uses: bcrutherford/resuable-workflows/.github/workflows/reusable-build.yml@main
     with:
       dotnet_version: '9.0.x'
