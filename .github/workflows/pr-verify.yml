@@ -7,6 +7,6 @@ on:
 
 jobs:
   build:
-    uses: bcrutherford/resuable-workflows/.github/workflows/reusable-build.yml@main
+    uses: ./.github/workflows/reusable-build.yml
     with:
       dotnet_version: '9.0.x'
