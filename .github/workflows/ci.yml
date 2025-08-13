@@ -8,6 +8,6 @@ on:
 jobs:
   build-and-test:
     name: Continuous Integration
-    uses: bcrutherford/reusable-workflows/github/workflows/reusable-build.yml@main
+    uses: bcrutherford/resuable-workflows/blob/main/.github/workflows/reusable-build.yml
     with:
       dotnet_version: 9.0.x
